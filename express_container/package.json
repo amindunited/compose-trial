@@ -1,0 +1,24 @@
+{
+  "name": "express_container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/compose-trial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amindunited/compose-trial/issues"
+  },
+  "homepage": "https://github.com/amindunited/compose-trial#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
+  }
+}

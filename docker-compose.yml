@@ -1,0 +1,12 @@
+ui:
+  build: .
+  ports:
+    - "3030:3030"
+  expose: 
+    - 3030
+api:
+  build: ./express_container/
+  ports:
+    - "3000:3000"
+  expose:
+    - "3000"
