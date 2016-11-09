@@ -1,9 +1,13 @@
-# use our prepared Raspberry Pi compatible Docker base image with Node.js
-FROM hypriot/rpi-node:0.12.0
+#FROM node:0.12.7
+#FROM node:4.3.2
+FROM node:6.9.1
 
 # make the src folder available in the docker image
 ADD . /src
 WORKDIR /src
+
+#install firefox for Functional tests
+#RUN apt-get install -y xvfb firefox-esr \
 
 # install the dependencies from the package.json file
 RUN npm install
